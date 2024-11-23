@@ -8,8 +8,9 @@ import { LanguageProvider } from "@/lib/hooks/useLanguage";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Web Developer Portfolio",
-  description: "Professional portfolio showcasing web development projects and skills",
+  title: "Nari Fukuda - Web Developer",
+  description:
+    "Professional portfolio showcasing web development projects and skills",
 };
 
 export default function RootLayout({
