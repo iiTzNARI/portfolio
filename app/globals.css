@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #FF6500;
+  --secondary: #1E3E62;
+  --darkblue: #0B192C;
+  --background: #000000;
+}
+
+body {
+  background: linear-gradient(to bottom, var(--background), var(--darkblue));
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, var(--primary), #FF8A3D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-hover {
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
