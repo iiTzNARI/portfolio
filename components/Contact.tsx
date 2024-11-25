@@ -37,14 +37,14 @@ export default function Contact() {
           className="flex justify-center gap-8"
         >
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:byenar1isme@gmail.com"
             className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
           >
             <Mail size={24} />
             <span>{t.contact.email}</span>
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/iiTzNARI"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
@@ -53,7 +53,7 @@ export default function Contact() {
             <span>{t.contact.github}</span>
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/nari-fukuda-a59598197/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"

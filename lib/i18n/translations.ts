@@ -4,12 +4,13 @@ export const translations = {
       home: "Home",
       about: "About",
       projects: "Projects",
-      contact: "Contact"
+      contact: "Contact",
     },
     hero: {
-      title: "Web Developer & Designer",
-      subtitle: "Creating beautiful, functional, and user-friendly web experiences",
-      cta: "View My Work"
+      title: "Hey there! I'm Nari Fukuda",
+      subtitle:
+        '"Turning designs into fully functional websites that users love."',
+      cta: "View My Work",
     },
     about: {
       title: "About Me",
@@ -17,116 +18,133 @@ export const translations = {
       skills: {
         development: {
           title: "Development",
-          description: "Expert in React, Next.js, TypeScript, and Node.js"
+          description: "Expert in React, Next.js, TypeScript, and Node.js",
         },
         design: {
           title: "Design",
-          description: "Creating beautiful and intuitive user interfaces"
+          description: "Creating beautiful and intuitive user interfaces",
         },
         performance: {
           title: "Performance",
-          description: "Building fast and optimized web applications"
-        }
+          description: "Building fast and optimized web applications",
+        },
       },
       education: {
         title: "Education",
         items: [
           {
-            period: "2018 - 2022",
-            degree: "Bachelor of Computer Science",
-            school: "Example University",
-            description: "Specialized in Software Engineering"
-          }
-        ]
+            period: "2014 - 2018",
+            degree: "Bachelor of computer science",
+            school: "University of Yamanashi",
+            description:
+              "Graduated from the Department of Computer Science and Engineering, Faculty of Engineering.",
+          },
+          {
+            period: "2023 - 2024",
+            degree: "Web Development Diploma",
+            school: "Cornerstone International Community College of Canada",
+            description: "Academic Education",
+          },
+        ],
       },
       career: {
         title: "Career",
         items: [
           {
-            period: "2022 - Present",
-            position: "Senior Web Developer",
-            company: "Tech Company",
-            description: "Leading frontend development team and architecting web applications"
-          }
-        ]
-      }
+            period: "2018 - 2022",
+            position: "System Engineer",
+            company:
+              "T.D.I.CO.,LTD. (Technological Development of Information-processing)",
+            description:
+              "Performed basic design and test management for the central computer system migration project of a major domestic railway company.",
+          },
+        ],
+      },
     },
     projects: {
       title: "Featured Projects",
       viewCode: "Code",
-      viewDemo: "Demo"
+      viewDemo: "Demo",
     },
     contact: {
       title: "Get In Touch",
       subtitle: "I'm always open to new opportunities and collaborations",
       email: "Email",
       github: "GitHub",
-      linkedin: "LinkedIn"
-    }
+      linkedin: "LinkedIn",
+    },
   },
   ja: {
     nav: {
-      home: "ホーム",
-      about: "自己紹介",
-      projects: "プロジェクト",
-      contact: "お問い合わせ"
+      home: "home",
+      about: "About",
+      projects: "Projects",
+      contact: "Contact",
     },
     hero: {
-      title: "Web開発者 & デザイナー",
-      subtitle: "美しく、機能的で、ユーザーフレンドリーなWeb体験を創造します",
-      cta: "作品を見る"
+      title: "Nari Fukuda, Web Developer.",
+      subtitle:
+        '"Turning designs into fully functional websites that users love."',
+      cta: "プロジェクト",
     },
     about: {
-      title: "自己紹介",
-      moreInfo: "詳細を見る",
+      title: "About",
+      moreInfo: "もっと見る",
       skills: {
         development: {
           title: "開発",
-          description: "React、Next.js、TypeScript、Node.jsのエキスパート"
+          description: "React、Next.js、TypeScript、Node.jsのエキスパート",
         },
         design: {
           title: "デザイン",
-          description: "美しく直感的なユーザーインターフェースの作成"
+          description: "美しく直感的なユーザーインターフェースの作成",
         },
         performance: {
           title: "パフォーマンス",
-          description: "高速で最適化されたWebアプリケーションの構築"
-        }
+          description: "高速で最適化されたWebアプリケーションの構築",
+        },
       },
       education: {
         title: "学歴",
         items: [
           {
-            period: "2018 - 2022",
+            period: "2014 - 2018",
             degree: "情報工学学士",
-            school: "サンプル大学",
-            description: "ソフトウェアエンジニアリング専攻"
-          }
-        ]
+            school: "山梨大学",
+            description: "工学部コンピュータ理工学科卒業",
+          },
+          {
+            period: "2023 - 2024",
+            degree: "Web Development Diploma",
+            school: "Cornerstone International Community College of Canada",
+            description: "Academic Education卒業",
+          },
+        ],
       },
       career: {
         title: "経歴",
         items: [
           {
-            period: "2022 - 現在",
-            position: "シニアWebデベロッパー",
-            company: "テック企業",
-            description: "フロントエンド開発チームのリードとWebアプリケーションの設計"
-          }
-        ]
-      }
+            period: "2018 - 2022",
+            position: "システムエンジニア",
+            company: "情報技術開発株式会社",
+            description:
+              "国内大手鉄道会社の中央コンピュータ刷新プロジェクトにおける基本設計およびテスト管理",
+          },
+        ],
+      },
     },
     projects: {
-      title: "プロジェクト",
-      viewCode: "コード",
-      viewDemo: "デモ"
+      title: "Projects",
+      viewCode: "code",
+      viewDemo: "demo",
     },
     contact: {
       title: "お問い合わせ",
-      subtitle: "新しい機会やコラボレーションをお待ちしています",
+      subtitle: "",
       email: "メール",
       github: "GitHub",
-      linkedin: "LinkedIn"
-    }
-  }
+      linkedin: "LinkedIn",
+    },
+  },
 };
