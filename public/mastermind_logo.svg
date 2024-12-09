@@ -1,0 +1,16 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E6F0FA" />
+  
+  <!-- Grid-like abstraction for numbers -->
+  <circle cx="75" cy="75" r="40" fill="#4A90E2" />
+  <circle cx="225" cy="75" r="40" fill="#4A90E2" />
+  <circle cx="150" cy="150" r="40" fill="#4A90E2" />
+  <circle cx="75" cy="225" r="40" fill="#4A90E2" />
+  <circle cx="225" cy="225" r="40" fill="#4A90E2" />
+
+  <!-- Text (mastermind style abstraction) -->
+  <text x="50%" y="290" font-family="Arial" font-size="24" fill="#004080" text-anchor="middle">
+    MASTERMIND
+  </text>
+</svg>

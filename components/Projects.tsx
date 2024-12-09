@@ -4,33 +4,6 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { useLanguage } from "@/lib/hooks/useLanguage";
 
-const projects = [
-  {
-    title: "Mastermind-Game",
-    description: "A modern web application built with React and Next.js",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
-    github: "https://github.com/iiTzNARI/mastermind",
-    demo: "https://mastermind-iitznari.vercel.app",
-  },
-  // {
-  //   title: "Project 2",
-  //   description: "Full-stack application using Node.js and TypeScript",
-  //   image:
-  //     "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80",
-  //   github: "#",
-  //   demo: "#",
-  // },
-  // {
-  //   title: "Project 3",
-  //   description: "Responsive web design with modern UI/UX principles",
-  //   image:
-  //     "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&q=80",
-  //   github: "#",
-  //   demo: "#",
-  // },
-];
-
 export default function Projects() {
   const { t } = useLanguage();
 
@@ -47,7 +20,7 @@ export default function Projects() {
         </motion.h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {t.projects.details.map((project, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}

@@ -57,9 +57,14 @@ export default function About() {
           viewport={{ once: true }}
           className="flex-col"
         >
-          <div className="text-xl md:text-2xl font-bold p-5">
-            <span className="text-white">Skills</span>
-          </div>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-3xl font-bold mb-8 text-white"
+          >
+            Skills
+          </motion.h2>
           <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-12 p-3 bg-secondary/10 rounded-lg">
             {skills.map((skill, index) => (
               <div

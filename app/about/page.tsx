@@ -3,25 +3,38 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/hooks/useLanguage";
 import { Code2, Palette, Rocket } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutPage() {
   const { t } = useLanguage();
 
   const skills = [
     {
-      icon: <Code2 className="w-6 h-6" />,
-      title: t.about.skills.development.title,
-      description: t.about.skills.development.description,
+      iconSrc: "/html-5-svgrepo-com.svg",
     },
     {
-      icon: <Palette className="w-6 h-6" />,
-      title: t.about.skills.design.title,
-      description: t.about.skills.design.description,
+      iconSrc: "/css-3-svgrepo-com.svg",
     },
     {
-      icon: <Rocket className="w-6 h-6" />,
-      title: t.about.skills.performance.title,
-      description: t.about.skills.performance.description,
+      iconSrc: "/javascript-svgrepo-com.svg",
+    },
+    {
+      iconSrc: "/typescript-svgrepo-com.svg",
+    },
+    {
+      iconSrc: "/java-svgrepo-com.svg",
+    },
+    {
+      iconSrc: "/node-js-svgrepo-com.svg",
+    },
+    {
+      iconSrc: "/react-svgrepo-com.svg",
+    },
+    {
+      iconSrc: "/nextjs-svgrepo-com.svg",
+    },
+    {
+      iconSrc: "/github-svgrepo-com.svg",
     },
   ];
 
@@ -37,22 +50,38 @@ export default function AboutPage() {
 
       {/* Skills Section */}
       <section className="mb-20">
-        <div className="grid md:grid-cols-3 gap-8">
-          {skills.map((skill, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.2 }}
-              className="bg-secondary/10 p-6 rounded-lg card-hover"
-            >
-              <div className="text-primary mb-4">{skill.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{skill.title}</h3>
-              <p className="text-gray-300">{skill.description}</p>
-            </motion.div>
-          ))}
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex-col"
+        >
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-3xl font-bold mb-8 text-white"
+          >
+            Skills
+          </motion.h2>
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-12 p-3 bg-secondary/10 rounded-lg">
+            {skills.map((skill, index) => (
+              <div
+                key={index}
+                className="flex items-center justify-center rounded-lg p-2"
+              >
+                <Image
+                  src={skill.iconSrc}
+                  alt={`Skill ${index + 1}`}
+                  width={128}
+                  height={128}
+                  style={{ width: "16", height: "16" }}
+                  className="object-contain "
+                />
+              </div>
+            ))}
+          </div>
+        </motion.div>
       </section>
 
       {/* Education Section */}

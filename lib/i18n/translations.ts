@@ -3,17 +3,17 @@ export const translations = {
     nav: {
       home: "Home",
       about: "About",
-      projects: "Projects",
+      projects: "Project",
       contact: "Contact",
     },
     hero: {
       title: "Hey there! I'm Nari Fukuda",
       subtitle:
         '"Turning designs into fully functional websites that users love."',
-      cta: "View My Work",
+      cta: "Project",
     },
     about: {
-      title: "About Me",
+      title: "About",
       moreInfo: "More Info",
       skills: {
         development: {
@@ -65,6 +65,16 @@ export const translations = {
       title: "Featured Projects",
       viewCode: "Code",
       viewDemo: "Demo",
+      details: [
+        {
+          title: "Mastermind",
+          description:
+            "A number guessing game created using React and Next.js.",
+          image: "/mastermind_logo.svg",
+          github: "https://github.com/iiTzNARI/mastermind",
+          demo: "https://mastermind-iitznari.vercel.app",
+        },
+      ],
     },
     contact: {
       title: "Get In Touch",
@@ -76,20 +86,20 @@ export const translations = {
   },
   ja: {
     nav: {
-      home: "home",
+      home: "Home",
       about: "About",
-      projects: "Projects",
-      contact: "Contact",
+      projects: "Project",
+      contact: "contact",
     },
     hero: {
       title: "Nari Fukuda, Web Developer.",
       subtitle:
         '"Turning designs into fully functional websites that users love."',
-      cta: "プロジェクト",
+      cta: "Project",
     },
     about: {
       title: "About",
-      moreInfo: "もっと見る",
+      moreInfo: "More info",
       skills: {
         development: {
           title: "開発",
@@ -135,12 +145,22 @@ export const translations = {
       },
     },
     projects: {
-      title: "Projects",
+      title: "Project",
       viewCode: "code",
       viewDemo: "demo",
+      details: [
+        {
+          title: "Mastermind",
+          description:
+            "React、Next.jsを使用し作成された数字当てゲーム。昔、テレビ番組「Numer0n」にて行われていた。",
+          image: "/mastermind_logo.svg",
+          github: "https://github.com/iiTzNARI/mastermind",
+          demo: "https://mastermind-iitznari.vercel.app",
+        },
+      ],
     },
     contact: {
-      title: "お問い合わせ",
+      title: "Contact",
       subtitle: "",
       email: "メール",
       github: "GitHub",
