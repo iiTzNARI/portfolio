@@ -67,7 +67,7 @@ export const translations = {
       viewDemo: "Demo",
       details: [
         {
-          title: "Mastermind",
+          title: "Mastermind (WIP)",
           description:
             "A number guessing game created using React and Next.js.",
           image: "/mastermind_logo.svg",
@@ -150,7 +150,7 @@ export const translations = {
       viewDemo: "demo",
       details: [
         {
-          title: "Mastermind",
+          title: "Mastermind (WIP)",
           description:
             "React、Next.jsを使用し作成された数字当てゲーム。昔、テレビ番組「Numer0n」にて行われていた。",
           image: "/mastermind_logo.svg",
