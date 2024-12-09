@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/lib/hooks/useLanguage";
 import LanguageSwitch from "./LanguageSwitch";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold gradient-text">
-            Portfolio
+            {/* Portfolio */}
+            <Image src="/logo.png" alt="logo" width={40} height={40} />
           </Link>
 
           {/* Desktop Navigation */}
