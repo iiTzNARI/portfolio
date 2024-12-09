@@ -7,7 +7,7 @@ export const translations = {
       contact: "Contact",
     },
     hero: {
-      title: "Hey there! I'm Nari Fukuda",
+      title: "Nari Fukuda, Web Developer.",
       subtitle:
         '"Turning designs into fully functional websites that users love."',
       cta: "Project",
